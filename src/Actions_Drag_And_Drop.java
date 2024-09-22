@@ -26,6 +26,9 @@ public class Actions_Drag_And_Drop {
 		WebElement des = driver.findElement(By.id("bank"));
 		Thread.sleep(2000);
 		a.dragAndDrop(source, des).perform();
+		System.out.println("Git Demo");
+		System.out.println("Git Demo");
+		System.out.println("Git Demo");
 //		a.clickAndHold(source).moveToElement(des).release(des).perform(); 	* WITHOUT USING DRAGANDDROP *
 	}
 
